@@ -16,3 +16,13 @@
 #     else:
 #         i += 1
 # print(list)
+
+#3.Задайте последовательность чисел. Напишите программу, которая выведет список неповторяющихся элементов исходной последовательности.
+# lst = list(map(int, input("Введите числа через пробел: ").split()))
+# print(lst)
+# new_lst = [ ]
+# for i in lst:
+#     if i not in new_lst:
+#         new_lst.append(i)  
+#     i=i+1 
+# print(new_lst)
